@@ -45,4 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // 지문인식 라이브러리 추가
+    implementation("me.aflak.libraries:fingerprintdialog:2.4.2")
 }
